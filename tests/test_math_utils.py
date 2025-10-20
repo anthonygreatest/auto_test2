@@ -5,3 +5,6 @@ def test_basic_math():
 
 def test_multiply():
     assert multiply(3, 5) == 15, "it worked wrong"
+
+def test_multiply_negative():
+    assert multiply(-3, 5) == -15, "it worked wrong"
